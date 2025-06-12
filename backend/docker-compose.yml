@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: demandas-db
+    environment:
+      POSTGRES_DB: demandas
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./src/config/database:/docker-entrypoint-initdb.d

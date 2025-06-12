@@ -1,0 +1,18 @@
+{
+  "name": "demandas",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "node-backend-utils": "^1.1.2",
+    "pg": "^8.13.1"
+  }
+}
