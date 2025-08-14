@@ -1,4 +1,4 @@
-# Restaurante
+# Demandas
 Sistema desenvolvido para gestão de demandas
 
 ## Pré-requisitos
