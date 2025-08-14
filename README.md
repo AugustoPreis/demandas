@@ -15,7 +15,7 @@ Clone este repositório para a sua máquina local:
 
 ```bash
 git clone https://github.com/AugustoPreis/demandas.git
-cd restaurante
+cd demandas
 ```
 
 ## Back-end (Node.js)
